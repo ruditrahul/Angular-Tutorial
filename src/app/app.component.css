@@ -1,0 +1,31 @@
+header {
+  background-color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  width: 10rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+  list-style: none;
+  align-items: center;
+}
+
+li > a,
+.container > a {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
